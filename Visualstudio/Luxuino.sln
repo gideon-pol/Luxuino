@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Luxuino", "Luxuino\Luxuino.csproj", "{0B3C8A6F-0119-4ABF-969C-9327E0DD4B25}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B3C8A6F-0119-4ABF-969C-9327E0DD4B25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B3C8A6F-0119-4ABF-969C-9327E0DD4B25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B3C8A6F-0119-4ABF-969C-9327E0DD4B25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B3C8A6F-0119-4ABF-969C-9327E0DD4B25}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01DFA33B-2F82-4311-B87C-3A25BB5E0897}
+	EndGlobalSection
+EndGlobal
