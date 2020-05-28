@@ -31,10 +31,9 @@ namespace LedController
         float averageAudioLevel = 0;
         MMDevice targetDevice;
         WasapiLoopbackCapture capture = new WasapiLoopbackCapture();
-		
         DateTime lastTimeAudioTriggered = DateTime.Now;
         DateTime lastTimeChartRendered = DateTime.Now;
-		DateTime lastTimeSensitivityChanged = DateTime.Now;
+        DateTime lastTimeSensitivityChanged = DateTime.Now;
 
         public Audio()
         {
@@ -183,7 +182,7 @@ namespace LedController
                 {
                     try
                     {
-                        int sampleLength = 64;
+                        int sampleLength = 1024;
                         double average = 0;
                         double[] fft = new double[sampleLength];
 
@@ -208,7 +207,6 @@ namespace LedController
                     }
                     catch (Exception ex) { }
                 }
-
 
                 if (DateTime.Now.Subtract(lastTimeSensitivityChanged).Milliseconds >= 70)
                 {
