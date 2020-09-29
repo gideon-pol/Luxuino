@@ -6,38 +6,6 @@ Luxuino is an application for windows that allows you to use a microcontroller t
 The application makes use of the serial port to communicate with the microcontroller through the usb port. The microcontroller uses pwm to
 control the LEDs, which makes this application only usable for non-addressable LED strips. 
 
-### Installation
-Unzip the package and open Luxuino.exe. If you need to upload the code to your microcontroller using Luxuino,
-make sure the `Microcontroller` folder is in the same folder as the executable.
-
-The microcontroller code uses pwm pins 9 for Blue, 10 for Red and 11 for Green. If you want to use different pins edit the microcontroller code 
-and upload it with the arduino IDE.
-
-## Usage
-Luxuino allows you to use multiple different modes to control your LEDs, each with it's own settings and behaviour.
-
-### Presets
-These are predefined patterns that are simple and easy to configure.
-
-#### Static
-This is as simple as it sounds. Choose a color and your LEDs will staticly display this color.
-
-#### Breathing
-Breathing allows you to choose a color, which the microcontroller will then display in a breathing (on and off fading) pattern.
-The `pulse/sec` setting changes how many times per second it completes the breathing cycle.
-
-### Rainbow
-This mode will go through the full Hue spectrum, from 0 to 360 degrees. The `Cycle Length` setting changes how quickly it
-should do this.
-
-## Sequence
-In this page you can create your own color sequences which the controller will loop through.
- 
-## Getting Started
-Luxuino is an application for windows that allows you to use a microcontroller to control RGB LED strips. 
-The application makes use of the serial port to communicate with the microcontroller through the usb port. The microcontroller uses pwm to
-control the LEDs, which makes this application only usable for non-addressable LED strips. 
-
 ### Installing
 Unzip the package and open up luxuino.exe. If you need to upload the code to your microcontroller using the application,
 make sure the Microcontroller folder is in the same folder as the executable.
